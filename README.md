@@ -9,5 +9,14 @@ $ git clone https://github.com/papacthulu/vagrant-node-red.git
 $ cd vagrant-node-red
 $ vagrant up
 ```
-  
-Navigate to localhost:8080
+
+That's it! Navigate to localhost:8080
+
+##Problems?
+
+```sh
+vagrant ssh
+pkill -f node-red
+exit
+vagrant halt
+```
