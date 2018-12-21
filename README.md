@@ -21,5 +21,5 @@ Can't stop it?
 vagrant ssh
 sudo pkill -f node-red
 exit
-vagrant halt
+vagrant halt && vagrant up --provision OR vagrant destroy -f (if you want to start over)
 ```
