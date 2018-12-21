@@ -12,11 +12,14 @@ $ vagrant up
 
 That's it! Navigate to localhost:8080
 
+`node red is now running in a detached screen called node-red
+
 ## Problems?
 
+Can't stop it?
 ```sh
 vagrant ssh
-pkill -f node-red
+sudo pkill -f node-red
 exit
 vagrant halt
 ```
