@@ -12,7 +12,7 @@ $ vagrant up
 
 That's it! Navigate to localhost:8080
 
-##Problems?
+## Problems?
 
 ```sh
 vagrant ssh
