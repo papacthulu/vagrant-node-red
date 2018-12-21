@@ -12,7 +12,7 @@ $ vagrant up
 
 That's it! Navigate to localhost:8080
 
-`node red is now running in a detached screen called node-red
+node red is now running in a detached screen called node-red
 
 ## Problems?
 
