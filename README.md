@@ -10,4 +10,4 @@ $ cd vagrant-node-red
 $ vagrant up
 ```
   
-Navigate to [localhost:8080](localhost:8080)
+Navigate to localhost:8080
