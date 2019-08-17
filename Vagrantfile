@@ -4,10 +4,10 @@ Vagrant.configure("2") do |config|
   config.ssh.keep_alive = true
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
-	curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+	curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 	apt-get install -y nodejs
 	npm install npm --global
-	npm install -g --unsafe-perm node-red
+	npm install -g --unsafe-perm node-red node-red-dashboard
   SHELL
 
   config.vm.synced_folder "node-red/", "/home/node-red"
